@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story 3 - Scary Stories</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.7);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .cobweb {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('cobweb.png'); /* Add your cobweb image path */
+            opacity: 0.5;
+            pointer-events: none;
+        }
+        .bat {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('bat.png'); /* Add your bat image path */
+            animation: fly 10s infinite;
+        }
+        @keyframes fly {
+            0% { transform: translate(0, 0); }
+            50% { transform: translate(100px, -100px); }
+            100% { transform: translate(0, 0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="cobweb"></div>
+    <h1>Story 3: The Whispering Shadows</h1>
+    <p>As the clock struck midnight, Sarah found herself alone in the old mansion. The air was thick with dust and secrets, and the shadows seemed to dance around her. She could hear whispers echoing through the halls, calling her name...</p>
+    <p>With each step she took, the whispers grew louder, urging her to uncover the truth hidden within the walls. Little did she know, the shadows were not just figments of her imagination...</p>
+    <p>What happened next would change her life forever, as she faced the darkness that lurked in the corners of her mind and the mansion itself...</p>
+    <p><a href="index.html" style="color: white;">Back to Home</a></p>
+</body>
+</html>
